@@ -1,5 +1,7 @@
 # Quant_Chem
 
+FORTRAN 90 code for Hatree-Fock method. Only s-type integration is included. That is only s-type basis sets can be used.
+
 The binary scf.out can be built by the command
 ```
 $ make
@@ -24,11 +26,8 @@ Instructions for the configuration file config.dat
   0.0 0.0 0.0 ! coordinate in angstrom
 ```
 
-About the code
-FORTRAN 90 code for Hatree-Fock method
-Only s-type integration is included
-That is only s-type basis sets can be used
-
 Framework written by Xinzijian Liu
+
 Gaussian integration written by Ning Zhang
+
 DIIS written by Yuhang Yao
