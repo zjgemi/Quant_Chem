@@ -1,0 +1,9 @@
+&ctr
+natom   = 2
+charge  = 0
+mult    = 1
+kmax    = 10000
+eps1    = 1d-20
+eps2    = 1d-16
+fdiis   = .TRUE.
+&end 
